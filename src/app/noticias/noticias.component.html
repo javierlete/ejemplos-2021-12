@@ -1,0 +1,6 @@
+<article *ngFor="let noticia of noticias">
+  <img src="{{noticia.logo}}" alt="{{noticia.logoAlt}}">
+  <a href="{{noticia.vinculo}}">{{noticia.titular}}</a>
+  <p>Hace {{noticia.minutos}} minutos</p>
+  <img src="{{noticia.foto}}" alt="{{noticia.fotoAlt}}">
+</article>
